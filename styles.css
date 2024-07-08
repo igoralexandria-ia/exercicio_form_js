@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #dadadafa;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 60px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+    gap: 16px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: transparent;    
+    border: none;
+    border-bottom: 2px solid #009af3;
+    padding: 8px;
+    width: calc(50% - 8px);
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #009af3;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #0e4564;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #009af3;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+table td img {
+    height: 30px;
+}
+
+button.remove-contato {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.total-contatos {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
